@@ -1,1 +1,2 @@
 2025-07-02 09:45:20 | Responsable: maribel | Destino benjamin |Con silla para niños | Tiempo detenido: 6.0s |En movimiento: 3.3339650630950928 | Total: $6.19 
+2025-07-02 10:15:33 | Responsable: Mari | Destino Benji |Con silla para niños | Tiempo detenido: 16.7s |En movimiento: 5.43592095375061 | Total: $11.92 

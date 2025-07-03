@@ -1,3 +1,5 @@
+
+Hola
 # Página Web de Ejemplo
 
 Este proyecto es una guía práctica para aprender a usar Git y GitHub con ramas, commits convencionales y resolución de conflictos. A lo largo de esta actividad, crearás una página web simple, trabajarás en múltiples ramas y resolverás conflictos de fusión.
