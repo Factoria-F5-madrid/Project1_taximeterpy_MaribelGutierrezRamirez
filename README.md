@@ -1,14 +1,15 @@
 
 🚧 Proyecto en construcción 🚧
-### Aqui va la portada
-
-
-<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Oncoming%20Taxi.png" alt="Oncoming Taxi" width="100" height="100" />  
-## **Taxímetro en el nivel esencial**
+<p align="center">
+  <img src="Texto.png" alt="Portada" width="1000"/>
+</p>
 
 
 
-Bienvenidos a **Taxímetro**, un programa en Python que simula el funcionamiento básico de un taxímetro. 
+¡Tu taxi ha llegado! Bienvenidos a **Familias en Movimiento**, la única empresa de transportes que ofrece servicio a familias con niños. 
+
+
+<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Rocket.png" alt="Rocket" width="25" height="25" />Este es un programa en Python que simula el funcionamiento básico de un taxímetro. 
 
 ---
 
@@ -31,6 +32,11 @@ Bienvenidos a **Taxímetro**, un programa en Python que simula el funcionamiento
 - "stop" → Cambia a estado “parado” 🛑
 - "finish" → Finaliza el trayecto y muestra tarifa ✅
 - "exit" → Cierra el programa 👋
+
+  
+
+<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Oncoming%20Taxi.png" alt="Oncoming Taxi" width="100" height="100" />  
+
 
 ## **Estructura del Proyecto**
 
