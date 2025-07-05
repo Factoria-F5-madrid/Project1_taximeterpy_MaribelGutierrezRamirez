@@ -1,5 +1,3 @@
-
-🚧 Proyecto en construcción 🚧
 <p align="center">
   <img src="Texto.png" alt="Portada" width="1000"/>
 </p>
@@ -14,45 +12,78 @@
 ---
 
 ## **¿Cómo fue diseñado este código?**
-- Muestra un mensaje de bienvenida explicando su uso.
-- Permite iniciar un trayecto (`start`).
-- Calcula:
-  - Tarifa parado → **2 céntimos por segundo** 
-  - Tarifa en movimiento → **5 céntimos por segundo** 
-- Finaliza un trayecto (`finish`) y muestra el total en euros (€).
-- Permite iniciar un nuevo trayecto sin cerrar el programa.
-- Todo desde una **interfaz de línea de comandos (CLI)**.
+Este proyecto fue una experiencia completamente nueva para mí, ya que era la primera vez que trabajaba con Python. Tal vez te preguntes: ¿cómo logre sacarlo adelante sin experiencia previa?
 
----
+Comencé investigando referencias sobre la lógica de funcionamiento de sistemas similares. A partir de ahí, desarrollé un código mínimo viable que permitiera calcular la tarifa en función del tiempo en movimiento, específicamente por segundo.
 
-## **Comandos:**
+Desde el inicio, quise que el proyecto tuviera un fuerte enfoque en la atención al cliente. Esto se debe a mi experiencia profesional previa, donde aprendí la importancia de diseñar productos y servicios centrados en las personas. Por eso, incorporé interacciones con el usuario a través de funciones como input() y mensajes informativos con print(), solicitando datos como el nombre y detalles del viaje.
 
-- "start" → Inicia un trayecto 🚦
-- "move" → Cambia a estado “en movimiento” 🏎️
-- "stop" → Cambia a estado “parado” 🛑
-- "finish" → Finaliza el trayecto y muestra tarifa ✅
-- "exit" → Cierra el programa 👋
+También incluí una condición en el código que permite ofrecer una silla para menores, pensando en brindar un servicio más inclusivo y adaptado a las necesidades familiares.
+
+Para registrar de forma precisa los horarios de los viajes, utilicé la librería datetime, lo que permite obtener la hora real en que se ejecutan ciertas partes del código. Esto ayuda a generar registros más certeros y útiles para posibles análisis posteriores
+
+
+## **Funcionalidades Principales:** <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Oncoming%20Taxi.png" alt="Oncoming Taxi" width="40" height="40" />  
+
+
+Simulación del flujo de un viaje con los comandos:
+
+start: inicia el trayecto
+
+stop: marca el estado detenido
+
+move: indica que el vehículo está en movimiento
+
+finish: finaliza el trayecto y calcula la tarifa
+
+exit: cierra el programa
+
+Registro de datos del usuario (nombre del adulto y del niño/a).
+
+Verificación de la necesidad de una silla para menores de 12 años.
+
+Cálculo dinámico de la tarifa:
+
+Tarifa base: $2.50
+
+- Costo por segundo en movimiento: $0.20
+
+- Costo por segundo detenido: $0.50
+
+Registro del trayecto en un archivo historial_trayectos.txt.
 
   
-
-<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Oncoming%20Taxi.png" alt="Oncoming Taxi" width="100" height="100" />  
-
-
 ## **Estructura del Proyecto**
 
  - taximetro-cli/
      - taximetro.py              # Código principal del taxímetro
      - README.md                 # Este documento
      - Historial_proyectos.txt   # Texto plano para el registro histórico de los viajes
-  
+
+
+## **Estructura del Código**
+
+calculate_fare(): Calcula el total de la tarifa con base en los tiempos registrados.
+
+registrar_trayecto(): Guarda los datos del viaje en un archivo de texto.
+
+solicitar_datos_usuario(): Interactúa con el usuario para capturar los datos necesarios.
+
+taximeter(): Controla el flujo del viaje y los comandos disponibles.
+
+Bloque if __name__ == "__main__": Inicia el programa llamando a taximeter().  
+
+
+
 
 ## **Fortalezas y Debilidades del Proyecto**
 
 - ✅ Fácil de entender y mantener
 - ✅ Lógica clara para calcular tarifas
 - ✅ Guarda el  historial de trayectos en archivo de texto plano
+- ✅ Respuestas personalizadas con nombre de usuario y su hijo o hija
 
-- ⚠️ No tiene pruebas unitarias
+- ⚠️ No tiene pruebas unitarias 
 - ⚠️ No controla errores avanzados de entrada
 - ⚠️ Es solo CLI, sin interfaz gráfica (más adelante haré este desarrollo)
 
