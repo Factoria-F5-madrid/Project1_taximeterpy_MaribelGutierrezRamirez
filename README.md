@@ -26,31 +26,31 @@ Para registrar de forma precisa los horarios de los viajes, utilicé la librerí
 ## **Funcionalidades Principales:** <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Oncoming%20Taxi.png" alt="Oncoming Taxi" width="40" height="40" />  
 
 
-Simulación del flujo de un viaje con los comandos:
+1. Simulación del flujo de un viaje con los comandos:
 
-start: inicia el trayecto
+- start: inicia el trayecto
 
-stop: marca el estado detenido
+- stop: marca el estado detenido
 
-move: indica que el vehículo está en movimiento
+- move: indica que el vehículo está en movimiento
 
-finish: finaliza el trayecto y calcula la tarifa
+- finish: finaliza el trayecto y calcula la tarifa
 
-exit: cierra el programa
+- exit: cierra el programa
 
-Registro de datos del usuario (nombre del adulto y del niño/a).
+2. Registro de datos del usuario (nombre del adulto y del niño/a).
 
-Verificación de la necesidad de una silla para menores de 12 años.
+3. Verificación de la necesidad de una silla para menores de 12 años.
 
-Cálculo dinámico de la tarifa:
+4. Cálculo dinámico de la tarifa:
 
-Tarifa base: $2.50
+- Tarifa base: $2.50
 
 - Costo por segundo en movimiento: $0.20
 
 - Costo por segundo detenido: $0.50
 
-Registro del trayecto en un archivo historial_trayectos.txt.
+5. Registro del trayecto en un archivo historial_trayectos.txt.
 
   
 ## **Estructura del Proyecto**
