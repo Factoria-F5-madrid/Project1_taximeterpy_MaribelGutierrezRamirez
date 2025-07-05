@@ -87,5 +87,19 @@ Bloque if __name__ == "__main__": Inicia el programa llamando a taximeter().
 - ⚠️ No controla errores avanzados de entrada
 - ⚠️ Es solo CLI, sin interfaz gráfica (más adelante haré este desarrollo)
 
+## **Enlace a Projects**
+
+
+  [Proyecto Factoria F5](https://github.com/orgs/Factoria-F5-madrid/projects/9)
+
+
+  Y si tú también estás empezando en Python, te dejo este mensaje: 
+
+  <img src="https://user-images.githubusercontent.com/74038190/236544207-c4f427b3-be04-4cfe-a3d2-2eabb0d2de73.gif" width="400">
+<br><br>
+
+¡Hasta el próximo proyecto! :wave:
+
+
 
 
