@@ -2,8 +2,6 @@
   <img src="Texto.png" alt="Portada" width="1000"/>
 </p>
 
-[Ver Presentación en Google Drive](https://drive.google.com/file/d/1hXzdEgHxsJMqbNMaI0rVr_g7Pn0-ZDBH/view?usp=sharing)
-
 
 
 ¡Tu taxi ha llegado! Bienvenidos a **Familias en Movimiento**, la única empresa de transportes que ofrece servicio a familias con niños. 
@@ -11,9 +9,24 @@
 
 <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Rocket.png" alt="Rocket" width="25" height="25" />Este es un programa en Python que simula el funcionamiento básico de un taxímetro. 
 
+##  Enlaces importantes: 
+
+Conoce la presentacion realizada en Canva :eyes:
+[Ver Presentación en Google Drive](https://drive.google.com/file/d/1hXzdEgHxsJMqbNMaI0rVr_g7Pn0-ZDBH/view?usp=sharing)
+
+
+O si prefieres, puedes ver un **video** con la ejecución del código en el siguiente enlace: :point_down:
+
+[Ver video en Google Drive](https://drive.google.com/file/d/1HqESXwPJFjO7tJJKtsm8tCtCQZmruRBi/view?usp=sharing)
+
+
+¿Quieres ver cómo me organice? :point_down:
+
+[Enlace a Projects](https://github.com/orgs/Factoria-F5-madrid/projects/9)
+
 ---
 
-## **¿Cómo fue diseñado este código?**
+## **¿Cómo fue diseñado este código?** :construction_worker:
 Este proyecto fue una experiencia completamente nueva para mí, ya que era la primera vez que trabajaba con Python. Tal vez te preguntes: ¿cómo logre sacarlo adelante sin experiencia previa?
 
 Comencé investigando referencias sobre la lógica de funcionamiento de sistemas similares. A partir de ahí, desarrollé un código mínimo viable que permitiera calcular la tarifa en función del tiempo en movimiento, específicamente por segundo.
@@ -89,13 +102,8 @@ Bloque if __name__ == "__main__": Inicia el programa llamando a taximeter().
 - ⚠️ No controla errores avanzados de entrada
 - ⚠️ Es solo CLI, sin interfaz gráfica (más adelante haré este desarrollo)
 
-## **Enlace a Projects**
 
-
-  [Proyecto Factoria F5](https://github.com/orgs/Factoria-F5-madrid/projects/9)
-
-
-  Y si tú también estás empezando en Python, te dejo este mensaje: 
+  Y si tú también estás empezando en Python, te dejo este mensaje: :ok_woman:
 
   <img src="https://user-images.githubusercontent.com/74038190/236544207-c4f427b3-be04-4cfe-a3d2-2eabb0d2de73.gif" width="400">
 <br><br>
